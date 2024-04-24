@@ -1,0 +1,430 @@
+   .add-minus-horiz, .add-minus-vert {
+   width: 0.63rem !important;  
+   height: 0.09rem !important;  
+   min-width: 0.63rem !important;  
+   max-width: 0.63rem !important;
+   min-height: 0.09rem !important;
+   max-height: 0.09rem !important;
+   background-color: black; /* or your desired color */
+   display: block;
+   }
+  
+  /*TAUPE DARKER NAV */
+  /*DESKTOP */
+  .theme-taupedarker #nav{
+  background-color:#eff4e4;
+  }
+   
+  
+  /*TAUPE NAV */
+  /*DESKTOP */
+  
+  .navbar_cta-card{border:1px solid #F5F8EF;background-color:#F5F8EF;}
+  .navbar_cta-card-solution{border:none; background-color:#F7FAF2;}
+  .theme-taupe .add-minus-horiz{border:1px solid #0F1C2C;}
+  .theme-taupe .add-minus-vert{border:1px solid #0F1C2C;}
+  
+  /* Hover effect for navbar_cta-card light taupe theme */
+  .theme-taupe .navbar_cta-card:hover,
+  .theme-taupedarker .navbar_cta-card:hover{
+  background-color: #EFF4E4; /* Example hover background color for non-theme blue */
+  box-shadow: 0 0 7px rgba(211, 211, 211, 0.3);
+  }
+  
+  /* Taupe theme: Gradient hover effect for .navbar_cta-card-solution */
+  .theme-taupe .navbar_cta-card-solution:hover,
+  .theme-taupedarker .navbar_cta-card-solution:hover{
+  background: linear-gradient(180deg, #3BE0AD 0%, #EFF4E4 57%);
+  }
+  
+  /* Taupe Theme: new-nav-link-arrow hover */
+  .theme-taupe .new-nav-link-arrow,
+  .theme-taupedarker .new-nav-link-arrow{
+  transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .theme-taupe .navbar_cta-card:hover .new-nav-link-arrow,
+  .theme-taupedarker .navbar_cta-card:hover .new-nav-link-arrow{
+  background-color: #19A078; /* Change background to green */
+  color: #FFFFFF; /* Change text color to white */
+  }
+
+  /* Hide all images by default */
+  .navbar_cta-card-solution .solution-img-taupe,
+  .navbar_cta-card-solution .solution-img-blue,
+  .navbar_cta-card-solution .solution-img-green,
+  .navbar_cta-card-solution .solution-img-taupe-mobile,
+  .navbar_cta-card-solution .solutions-logo-mobile-taupe,
+  .navbar_cta-card-solution .solution-img-blue-mobile,
+  .navbar_cta-card-solution .solution-img-green-mobile,
+  .navbar_cta-card-solution .solutions_img-mobile-white {
+  display: none;
+  }
+
+  /* Taupe theme: Show only taupe images for desktop and adjust for mobile */
+  .theme-taupe .navbar_cta-card-solution .solution-img-taupe,
+  .theme-taupedarker .navbar_cta-card-solution .solution-img-taupe{
+  display: block; /* Desktop image */
+  }
+  @media (max-width: 767px) {
+  .theme-taupe .navbar_cta-card-solution .solution-img-taupe,
+  .theme-taupedarker .navbar_cta-card-solution .solution-img-taupe{ display: none; } /* Hide desktop image for mobile */
+  .theme-taupe .navbar_cta-card-solution .solution-img-taupe-mobile,
+  .theme-taupedarker .navbar_cta-card-solution .solution-img-taupe-mobile,
+  .theme-taupe .navbar_cta-card-solution .solutions-logo-mobile-taupe,
+  .theme-taupedarker .navbar_cta-card-solution .solutions-logo-mobile-taupe{
+    display: block; /* Mobile images */
+  }
+ }
+  
+   /* TABLET*/
+  .theme-taupe .nav-tablet__wrapper,
+  .theme-taupedarker .nav-tablet__wrapper{border-top:none;}
+  
+   /* MOBILE*/
+  .theme-taupe .nav-mobile__section,
+  .theme-taupedarker .nav-mobile__section{border-bottom:none;}
+  .theme-taupe .nav-mobile__content, 
+  .theme-taupedarker .nav-mobile__content{background-color:#FFFFFF;}
+  
+  
+  
+  /* BLUE NAV */
+  /* DESKTOP*/
+  .theme-blue #nav{
+  	background-color:#0F1C2C;
+    border-bottom: 1px dashed rgb(239 244 228 / 60%);
+  }
+  .theme-blue .coverages__wrap-cta,.theme-blue .verticals__wrap-cta,.theme-blue .stage__wrap-cta,.theme-blue .community__wrap-cta, .theme-blue .navbar_cta-card, .theme-blue .navbar_cta-card-solution, .theme-blue .company__wrap-cta{
+  	background-color: #24303D;
+  }
+  .theme-blue .nav__text, .theme-blue .menu_text, .theme-blue .menu_title, .theme-blue .menu_dropdown-link, .theme-blue .new-navbar-h1, .theme-blue .nav__module-text{
+  	color: #EFF4E4;
+  }
+  .theme-blue #nav .link{
+  	color: #F6F9EF
+  }
+  .theme-blue .new-navbar-link{
+  color: #3BE0AD
+  }
+  .theme-blue .new-nav-button{
+  color: #EFF4E4
+  }
+  .theme-blue .menu_dropdown-link.is--title{
+   color: #00E4AA;
+  }
+  .theme-blue .menu_dropdown-link.is--special{
+  	color: #00E4AA;
+  }
+  .theme-blue .nav__logo-img.is--blue{
+  	display:none;
+  }
+  .theme-blue .nav__logo-img.is--taupe{
+  	display:block;
+  }
+  .theme-blue .menu_link_background, .theme-blue .menu_dropdown_background{
+  	background-color:#21303E;
+  }
+  .theme-blue .hamburger-icon *{background-color:#EEF4E2;}
+  .theme-blue .add-minus-icon *{background-color:#EEF4E2;}
+  .theme-blue .community__card-arrow{background-color:#4F5962;}
+  .theme-blue .community__wrap-cards .menu_title{color:#00E4AA;}
+  .theme-blue .community__wrap-card{border:1px solid #4F5962;background-color:transparent;}
+  .theme-blue .navbar_cta-card{border:none; background-color:rgba(239, 244, 228, 0.05);}
+  .theme-blue .navbar_cta-card-solution{border:none; background-color:rgba(239, 244, 228, 0.05);}
+
+  
+  
+  /* Hover effect for navbar_cta-card on the blue theme */
+  .theme-blue .navbar_cta-card:hover {
+  background: rgba(239, 244, 228, 0.15);
+  box-shadow: none;
+  }
+  
+  /* Hover effect for navbar_cta-card-solution on the blue theme */
+  .theme-blue .navbar_cta-card-solution:hover {
+  background: linear-gradient(180deg, rgba(59, 224, 173, 0.55) 0%, rgba(15, 28, 44, 0.5) 60%), rgba(239, 244, 228, 0.15);
+  box-shadow: none;
+  }
+  
+  /* Blue Theme: new-nav-link-arrow hover */
+  .theme-blue .new-nav-link-arrow {
+  transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .theme-blue .navbar_cta-card:hover .new-nav-link-arrow {
+  background-color: #3BE0AD; /* Change background to green */
+  color: #21303E; /* Change text color to white */
+  }
+  
+  /* TABLET*/
+  .theme-blue .nav-tablet__content{background-color:#21303E;}
+  .theme-blue .nav-tablet .h2__subheading{color:#F6F9EF;}
+  .theme-blue .nav-tablet__wrapper {border-top:0px solid #4F5962;}
+  
+
+  /* MOBILE*/
+  .theme-blue .nav-mobile__content{background-color:#202F3D;}
+  .theme-blue .nav-mobile .h2__subheading{color:#eff4e4;}
+  .theme-blue .nav-mobile .nav__text.is--button{color:#00E4AA;}
+  .theme-blue .nav-mobile .coverages__wrap-top{background-color:#202F3D;}
+  .theme-blue .nav-mobile .verticals__wrap-top{background-color:#202F3D;}
+  .theme-blue .nav-mobile .stage__wrap-top{background-color:#202F3D;}
+  .theme-blue .nav-mobile .company__wrap-top{background-color:#202F3D;}
+  .theme-blue .nav-mobile .community__wrap-top{background-color:#202F3D;}
+  .theme-blue .nav-mobile__section{border-bottom:0px solid #4F5962;}
+  .theme-blue .nav-mobile .solutions__wrap-top{background-color:#202F3D;}
+  .theme-blue .nav-mobile .resources__wrap-top{background-color:#202F3D;}
+  
+  /* Blue theme: Show only blue images for desktop and adjust for mobile */
+  .theme-blue .navbar_cta-card-solution .solution-img-blue {
+  display: block; /* Desktop image */
+  }
+  @media (max-width: 767px) {
+  .theme-blue .navbar_cta-card-solution .solution-img-blue { display: none; } /* Hide desktop image for mobile */
+  .theme-blue .navbar_cta-card-solution .solution-img-blue-mobile,
+  .theme-blue .navbar_cta-card-solution .solutions_img-mobile-white {
+    display: block; /* Mobile images */
+  }
+ }
+  
+  /* GREEN NAV */
+  /*DESKTOP*/
+  .theme-green #nav{
+  	background-color:#005944;
+  }
+  .theme-green .coverages__wrap-cta,.theme-green .verticals__wrap-cta,.theme-green .stage__wrap-cta,.theme-green .community__wrap-cta, .theme-green .navbar_cta-card, .theme-green .navbar_cta-card-solution, .theme-green .company__wrap-cta{
+  	background-color: #317D67;
+  }
+  .theme-green .nav__text, .theme-green .menu_text, .theme-green .menu_title, .theme-green .menu_dropdown-link, .theme-green .new-navbar-h1, .theme-green .new-navbar-link, .theme-green .nav__module-text{
+  	color: #F6F9EF;
+  }
+  .theme-green #nav .link{
+    color: #F6F9EF;
+  }
+  .theme-green .new-navbar-link{
+  color: #FFFFFF
+  }
+  .theme-green .new-nav-link-arrow{
+  color: #FFFFFF
+  }
+  .theme-green .new-nav-button{
+  color: #FFFFFF;
+  }
+  .theme-green .menu_dropdown-link.is--title{
+   color: #00E4AA;
+  }
+  .theme-green .menu_dropdown-link.is--special{
+  	color: #00E4AA;
+  }
+  .theme-green .nav__logo-img.is--blue{
+  	display:none;
+  }
+  .theme-green .nav__logo-img.is--taupe{
+  	display:block;
+  }
+  .theme-green .menu_link_background, .theme-green .menu_dropdown_background{
+  	background-color:#2F6654;
+  }
+  
+  .theme-green .hamburger-icon *{background-color:#EEF4E2;}
+  .theme-green .add-minus-icon *{background-color:#EEF4E2;}
+  .theme-green .community__card-arrow{background-color:#3D7E69;}
+  .theme-green .community__wrap-cards .menu_title{color:#00E4AA;}
+  .theme-green .community__wrap-card{border:1px solid #3D7E69;background-color:transparent;}
+  .theme-green .navbar_cta-card{border:none; background-color:rgba(239, 244, 228, 0.05);}
+  .theme-green .navbar_cta-card-solution{border:none; background-color:rgba(239, 244, 228, 0.05);}
+  .theme-green .new-nav-link-arrow{color: #FFFFFF;}
+  
+  /* Hover effect for navbar_cta-card on the green theme */
+  .theme-green .navbar_cta-card:hover {
+  background: rgba(239, 244, 228, 0.15);
+  box-shadow: none;
+  }
+  
+  /* Hover effect for navbar_cta-card-solution on the green theme */
+  .theme-green .navbar_cta-card-solution:hover {
+  background-color: rgba(255, 255, 255, 0.06); /* Example hover background color */
+  box-shadow: none;
+  }
+  
+  /* Green Theme: new-nav-link-arrow hover */
+  .theme-green .new-nav-link-arrow {
+  transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .theme-green .navbar_cta-card:hover .new-nav-link-arrow {
+  background-color: #FFFFFF;
+  color: #4E8F7A; 
+  }
+  
+  /* TABLET*/
+  .theme-green .nav-tablet__content{background-color:#076853;}
+  .theme-green .nav-tablet .h2__subheading{color:#eff4e4;}
+  .theme-green .nav-tablet__wrapper{border-top:0px solid #3D7E69;}
+  
+  /* MOBILE*/
+  .theme-green .nav-mobile__content{background-color:#036853;}
+  .theme-green .nav-mobile .h2__subheading{color:#eff4e4;}
+  .theme-green .nav-mobile .nav__text.is--button{color:#00E4AA;}
+  .theme-green .nav-mobile .coverages__wrap-top{background-color:#036853;}
+  .theme-green .nav-mobile .verticals__wrap-top{background-color:#036853;}
+  .theme-green .nav-mobile .stage__wrap-top{background-color:#036853;}
+  .theme-green .nav-mobile .company__wrap-top{background-color:#036853;}
+  .theme-green .nav-mobile .community__wrap-top{background-color:#036853;}
+  .theme-green .nav-mobile__section{border-bottom:0px solid #3D7E69;}
+  .theme-green .nav-mobile .solutions__wrap-top{background-color:#036853;}
+  .theme-green .nav-mobile .resources__wrap-top{background-color:#036853;}
+  
+  /* Green theme: Show only green images for desktop and adjust for mobile */
+  .theme-green .navbar_cta-card-solution .solution-img-green {
+  display: block; /* Desktop image */
+ }
+  @media (max-width: 767px) {
+  .theme-green .navbar_cta-card-solution .solution-img-green { display: none; } /* Hide desktop image for mobile */
+  .theme-green .navbar_cta-card-solution .solution-img-green-mobile,
+  .theme-green .navbar_cta-card-solution .solutions_img-mobile-white {
+    display: block; /* Mobile images */
+  }
+ }
+
+
+/* GRADIENT AI NAV - Based on .theme-blue with glass effect on navbar */
+  /* DESKTOP */
+  .theme-gradient-ai #nav {
+    backdrop-filter: blur(3px);
+    background-color: rgba(15, 28, 44, 0.0); /* Semi-transparent background for glass effect */
+    border-bottom: 1px dashed rgb(59 224 173 / 60%);
+  }
+  
+  .theme-gradient-ai .coverages__wrap-cta,.theme-gradient-ai .verticals__wrap-cta,.theme-gradient-ai .stage__wrap-cta,.theme-gradient-ai .community__wrap-cta, .theme-gradient-ai .navbar_cta-card, .theme-gradient-ai .navbar_cta-card-solution, .theme-gradient-ai .company__wrap-cta{
+  	background-color: #364450;
+  }
+  
+   .theme-gradient-ai .nav__text, .theme-gradient-ai .menu_text, .theme-gradient-ai .menu_title, .theme-gradient-ai .menu_dropdown-link, .theme-gradient-ai .new-navbar-h1, .theme-gradient-ai .new-navbar-link, .theme-gradient-ai .nav__module-text{
+  	color: #F6F9EF;
+  }
+  
+  .theme-gradient-ai .coverages__wrap-cta,
+  .theme-gradient-ai .verticals__wrap-cta,
+  .theme-gradient-ai .stage__wrap-cta,
+  .theme-gradient-ai .community__wrap-cta,
+  .theme-gradient-ai .company__wrap-cta {
+    background-color: #364450;
+  }
+  .theme-gradient-ai .nav__text, 
+  .theme-gradient-ai .menu_text, 
+  .theme-gradient-ai .menu_title, 
+  .theme-gradient-ai .menu_dropdown-link, 
+  .theme-gradient-ai .nav__module-text {
+    color: #F6F9EF;
+  }
+  .theme-gradient-ai #nav .link {
+    color: #F6F9EF;
+  }
+  .theme-gradient-ai .new-navbar-link{
+  color: #3BE0AD
+  }
+  .theme-gradient-ai .menu_dropdown-link.is--title {
+    color: #00E4AA;
+  }
+  .theme-gradient-ai .menu_dropdown-link.is--special {
+    color: #00E4AA;
+  }
+  .theme-gradient-ai .nav__logo-img.is--blue {
+    display: none;
+  }
+  .theme-gradient-ai .nav__logo-img.is--taupe {
+    display: block;
+  }
+  .theme-gradient-ai .menu_link_background, 
+  .theme-gradient-ai .menu_dropdown_background {
+    background-color: #21303E;
+  }
+  .theme-gradient-ai .hamburger-icon * {
+    background-color: #EEF4E2;
+  }
+  .theme-gradient-ai .add-minus-icon * {
+    background-color: #EEF4E2;
+  }
+  .theme-gradient-ai .community__card-arrow {
+    background-color: #4F5962;
+  }
+  .theme-gradient-ai .community__wrap-cards .menu_title {
+    color: #00E4AA;
+  }
+  .theme-gradient-ai .community__wrap-card {
+    border: 1px solid #4F5962;
+    background-color: transparent;
+  }
+  
+  .theme-gradient-ai .navbar_cta-card{border:none; background-color:rgba(239, 244, 228, 0.05);}
+  .theme-gradient-ai .navbar_cta-card-solution{border:none; background-color:rgba(239, 244, 228, 0.05);}
+  
+  /* Hover effect for navbar_cta-card on the transparent theme */
+  .theme-gradient-ai .navbar_cta-card:hover {
+  background: rgba(239, 244, 228, 0.15);
+  box-shadow: none;
+  }
+  
+  /* Hover effect for navbar_cta-card-solution on the transparent theme */
+  .theme-gradient-ai .navbar_cta-card-solution:hover {
+  background: linear-gradient(180deg, rgba(59, 224, 173, 0.55) 0%, rgba(15, 28, 44, 0.5) 60%), rgba(239, 244, 228, 0.15);
+  box-shadow: none;
+  }
+  
+  /* Blue Theme: new-nav-link-arrow hover */
+  .theme-taupe .new-nav-link-arrow {
+  transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .theme-gradient-ai .navbar_cta-card:hover .new-nav-link-arrow {
+  background-color: #3BE0AD; /* Change background to green */
+  color: #21303E; /* Change text color to white */
+  }
+
+  /* TABLET */
+  .theme-gradient-ai .nav-tablet__content {
+    background-color: #21303E;
+  }
+  .theme-gradient-ai .nav-tablet .h2__subheading {
+    color: #F6F9EF;
+  }
+  .theme-gradient-ai .nav-tablet__wrapper {
+    border-top: 0px solid #4F5962;
+  }
+
+  /* MOBILE */
+  .theme-gradient-ai .nav-mobile__content {
+    background-color: #202F3D;
+  }
+  .theme-gradient-ai .nav-mobile .h2__subheading {
+    color: #eff4e4;
+  }
+  .theme-gradient-ai .nav-mobile .nav__text.is--button {
+    color: #00E4AA;
+  }
+  .theme-gradient-ai .nav-mobile .coverages__wrap-top,
+  .theme-gradient-ai .nav-mobile .solutions__wrap-top,
+  .theme-gradient-ai .nav-mobile .resources__wrap-top,
+  .theme-gradient-ai .nav-mobile .verticals__wrap-top,
+  .theme-gradient-ai .nav-mobile .stage__wrap-top,
+  .theme-gradient-ai .nav-mobile .company__wrap-top,
+  .theme-gradient-ai .nav-mobile .community__wrap-top {
+    background-color: #202F3D;
+  }
+  .theme-gradient-ai .nav-mobile__section {
+    border-bottom: 0px solid #4F5962;
+  }
+  
+  /* Gradient theme: Show only blue images for desktop and adjust for mobile */
+  .theme-gradient-ai .navbar_cta-card-solution .solution-img-blue {
+  display: block; /* Desktop image */
+  }
+  @media (max-width: 767px) {
+  .theme-gradient-ai .navbar_cta-card-solution .solution-img-blue { display: none; } /* Hide desktop image for mobile */
+  .theme-gradient-ai .navbar_cta-card-solution .solution-img-blue-mobile,
+  .theme-gradient-ai .navbar_cta-card-solution .solutions_img-mobile-white {
+    display: block; /* Mobile images */
+  }
+ }
